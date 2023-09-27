@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script defer src="js/main.js"></script>
+    <title>products</title>
+  </head>
+  <body>
+     <!-- ======================================= #Header-Section . =========================== -->
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark row">
+        <!-- Brand/logo -->
+        <a class="navbar-brand col-lg-3 col-sm-1" href="#">
+          <img
+            src="images/logopro.jpg"
+            alt="logo"
+            class="rounded"
+            style="width: 40px"
+          />
+        </a>
+        <nav
+          class="navbar navbar-expand-sm bg-dark navbar-dark col-lg-6 col-sm-5"
+        >
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-success">Search</button>
+          </form>
+        </nav>
+        <!-- Nav pills -->
+        <ul class="nav nav-pills col-sm-6">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#">More</a>
+          </li>
+          <button type="button" class="btn btn-outline-success">Sign in</button>
+        </ul>
+      </nav>
+    </header>
+    <!-- ============================================#Home-Section .================================ -->
+    <section>
+      <div class="container">
+        <div class="home-section">
+          <div class="container-fluid">
+            <h3>Nike Store</h3>
+            <p>
+              Yaaqout Tareq Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Temporibus dolores ipsam voluptate nesciunt magni veniam,
+              animi ipsa, error soluta officia , iusto officiis!
+            </p>
+          </div>
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/homepro1.jpg"
+                  alt="Los Angeles"
+                  width="1100"
+                  height="500"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/homepro2.jpg"
+                  alt="Chicago"
+                  width="1100"
+                  height="500"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/homepro3.jpg"
+                  alt="New York"
+                  width="1100"
+                  height="500"
+                />
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================= #Special-Products . =============================== -->
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Special Products</h2>
+          <span class="line"></span>
+        </div>
+        <div class="list-product">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#menu2">Best Sells</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#home"
+                >Popular</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#menu1">Limited</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#menu2">Luxury</a>
+            </li>
+          </ul>
+        </div>
+        <div class="products">
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-1.jpg" />
+            </div>
+            <div class="product-details">
+              <div class="animation">
+                <ul class="limite-anime">
+                  <li>L</li>
+                  <li>I</li>
+                  <li>M</li>
+                  <li>I</li>
+                  <li>T</li>
+                  <li>E</li>
+                  <li>D</li>
+                  <li><i class="fa-solid fa-gem"></i></li>
+                </ul>
+              </div>
+              <h2>Air-1</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="615">
+                  +Air-1<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>650$</del> 615$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-2.jpg" />
+            </div>
+            <div class="product-details">
+              <h2>Air-2</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="820">
+                  +Air-2<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>870$</del> 820$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-3.jpg" />
+            </div>
+            <div class="product-details">
+              <h2>Air-3</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="925">
+                  +Air-3<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>980$</del> 925$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-4.jpg" />
+            </div>
+            <div class="product-details">
+              <h2>Air-4</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="752">
+                  +Air-4<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>760$</del> 732$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-5.jpg" />
+            </div>
+            <div class="product-details">
+              <h2>Air-5</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="567">
+                  +Air-5<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>590$</del> 567$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-6.jpg" />
+            </div>
+            <div class="product-details">
+              <div class="animation">
+                <ul class="limite-anime">
+                  <li>L</li>
+                  <li>I</li>
+                  <li>M</li>
+                  <li>I</li>
+                  <li>T</li>
+                  <li>E</li>
+                  <li>D</li>
+                  <li><i class="fa-solid fa-gem"></i></li>
+                </ul>
+              </div>
+              <h2>Air-6</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="800">
+                  +Air-6<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>820$</del> 800$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-7.jpg" />
+            </div>
+            <div class="product-details">
+              <div class="animation">
+                <ul class="limite-anime">
+                  <li>L</li>
+                  <li>I</li>
+                  <li>M</li>
+                  <li>I</li>
+                  <li>T</li>
+                  <li>E</li>
+                  <li>D</li>
+                  <li><i class="fa-solid fa-gem"></i></li>
+                </ul>
+              </div>
+              <h2>Air-7</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="830">
+                  +Air-7<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>870$</del> 830$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-8.jpg" />
+            </div>
+            <div class="product-details">
+              <h2>Air-8</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="765">
+                  +Air-8<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>790$</del> 765$</p>
+            </div>
+          </div>
+          <div class="porduct-card">
+            <div class="product-img">
+              <img src="images/prod-9.jpg" />
+            </div>
+            <div class="product-details">
+              <h2>Air-9</h2>
+              <i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star stars"></i
+              ><i class="fa-solid fa-star-half-stroke stars"></i>
+              <button class="add-btn">
+                <h4 price="615">
+                  +Air-9<i class="fa-solid fa-cart-plus btn-car"></i>
+                </h4>
+              </button>
+              <p>Price: <del>600$</del> 580$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================== #Casher-Box . ==================================== -->
+    <div class="casher-box">
+      <div id="content"><i class="fa-solid fa-cart-plus price-car"></i></div>
+      <div id="total-price" style="display: none">
+        <h3>All-Products:</h3>
+        <!-- <h1 class="price" style="display: none;">Total =</h1> -->
+      </div>
+      <button id="btn" style="display: none">Total $</button>
+    </div>
+
+    <!-- ============================================= #Footer .============================= -->
+    <div class="line"></div>
+    <footer>
+      <!-- Nav tabs -->
+      <div class="container">
+        <div class="nav-footer">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#"
+                ><i class="fa-solid fa-house-chimney-crack"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#"
+                ><i class="fa-regular fa-compass"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#"
+                ><i class="fa-brands fa-codepen"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
